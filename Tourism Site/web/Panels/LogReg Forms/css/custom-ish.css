@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 5, 2019, 7:21:48 PM
+    Author     : DigitalForce™
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Encode+Sans|Merriweather');
+
+
+#font-high {
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bolder;
+}
+
+
+
+
+
+#log-btn {
+    transition: .7s;
+    background-color: #00cec9;
+}
+
+#log-btn:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#log-btn span {
+    color: #ecf0f1;
+    transition: .7s;
+}
+
+#log-btn span:hover {
+    color: black;
+}
+
+.user-box {
+	
+	margin: auto;
+	padding: 0px;
+	width:100%;
+	
+}
+
+.user-img {
+	position: relative;
+	background-color: blue;
+	top:-10px;
+	margin: auto;
+	padding: 0;
+	height:150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 1px solid black;
+	align-content: center;
+}
+
+.user-img:before {
+	content: '';
+	position: absolute;
+	left: -11px;
+	top:-11px;
+	height:170px;
+	width: 170px;
+	border-radius: 50%;
+	background-color: #f5f6fa;
+	border: 1px solid #bdc3c7;
+	z-index: -1;
+	box-shadow: 0px 0px 20px #dcdde1;
+	
+}
+
+.details {
+	margin: auto;
+	padding: 0px;
+	width:60%;
+	text-align: center;
+	align-content: center;
+}.user-box {
+	
+	margin: auto;
+	padding: 0px;
+	width:100%;
+	
+}
+
+.user-img {
+	position: relative;
+	background-color: blue;
+	top:-10px;
+	margin: auto;
+	padding: 0;
+	height:150px;
+	width: 150px;
+	border-radius: 50%;
+	border: 1px solid black;
+	align-content: center;
+}
+
+.user-img:before {
+	content: '';
+	position: absolute;
+	left: -11px;
+	top:-11px;
+	height:170px;
+	width: 170px;
+	border-radius: 50%;
+	background-color: #f5f6fa;
+	border: 1px solid #bdc3c7;
+	z-index: -1;
+	box-shadow: 0px 0px 20px #dcdde1;
+	
+}
+
+.details {
+	margin: auto;
+	padding: 0px;
+	width:60%;
+	text-align: center;
+	align-content: center;
+}
+
+#im-edit {
+                    position: relative;
+                    left: 150px;
+                    
+                }
+                
+        
+                #custom-container {
+                    background-color: #5f27cd;
+                }
+                
+                #custom-login {
+                    background-color: #81ecec;
+                    box-shadow: 0px 0px 40px #353b48;
+                }
